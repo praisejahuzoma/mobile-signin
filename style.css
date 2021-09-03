@@ -1,0 +1,93 @@
+body{
+   background: linear-gradient(81deg, rgb(247, 88, 215) 3.73%, rgb(80, 237, 255) 97.68%);
+   margin-top: 10px;
+   height: 10%;
+   display: grid;
+}
+
+.dribble{
+    background-color: rgb(48, 47, 47);
+    height: 662px;
+    width: 385px;
+    margin-left: 550px;
+  border-radius: 45px;
+  margin-top: 30px;
+
+}
+
+
+.yp{
+    font-size: 20px;
+    position: relative;
+    top: 175px;
+   margin-left: 10px;
+    font-size: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: -1px;
+    background: -webkit-linear-gradient(120deg, #FF5EDF, #04C8DE);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.password-input{
+    border: none;
+    width: 69%;
+    height: 40px;
+    margin-top: 300px;
+    background-color: rgb(24, 23, 23); 
+    border-radius: 22px;
+    margin-left: 54px;
+    color: rgb(253, 247, 235);
+    padding-left: 15px;
+    cursor: pointer;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ }
+ .password-input:focus-visible {
+  outline-offset: 0px;
+  outline: none;
+}
+ 
+ .email-input{
+      border:none;
+      width: 69%;
+      height: 40px;
+      margin-top: 30px;
+      color: rgb(253, 247, 235);
+      background-color: rgb(24, 23, 23);
+      border-radius: 22px;
+      margin-left: 54px;
+      letter-spacing: 2px;
+      padding-left: 15px;
+      cursor: pointer;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ }
+ .email-input:focus-visible {
+  outline-offset: 0px;
+  outline: none;
+}
+ 
+ .signin{
+     border: none;
+     height: 40px;
+     width: 69%;
+     margin-top: 50px;
+     color: rgb(253, 247, 235);
+     font-family: cursive-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     letter-spacing: 2px;
+     margin-left: 60px;
+     border-radius: 22px;
+     cursor: pointer;
+     background: linear-gradient(89deg, rgb(247, 88, 215) 0%, rgb(80, 237, 255) 100%);
+ }
+
+ .signin:hover{
+  background: linear-gradient(89deg, rgb(97, 221, 251) 0%, rgb(186, 142, 229) 100%);
+ }
+
+ .praise{
+  margin-left:  150px;
+  margin-top: 20px;
+  width: 50px;
+  height: 60px;
+ }
